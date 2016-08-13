@@ -7,6 +7,7 @@ public class BMWBuilder extends CarBuilder{
 	@Override
 	public void setSequence(List<String> sequence) {
 		this.bmw.setSequence(sequence);
+		
 	}
 
 	@Override
