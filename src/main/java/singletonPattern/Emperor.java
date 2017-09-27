@@ -1,5 +1,6 @@
 package singletonPattern;
 
+//恶汉式，非懒加载，线程安全
 public class Emperor {
 	private static final Emperor emperor= new Emperor();
 	private Emperor(){};
